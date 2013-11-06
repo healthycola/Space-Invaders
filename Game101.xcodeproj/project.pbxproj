@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		251A65BB16DB6DDC00937A65 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 251A65B916DB6DDC00937A65 /* Timer.cpp */; };
+		254D92CC16D9A28900DEE186 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 254D92CB16D9A28900DEE186 /* SDL_image.framework */; };
 		25B130A116D0D1AC00414F44 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25B130A016D0D1AC00414F44 /* main.cpp */; };
 		25B130A316D0D1AC00414F44 /* Game101.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 25B130A216D0D1AC00414F44 /* Game101.1 */; };
+		25B130AA16D0D43E00414F44 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B130A916D0D43E00414F44 /* Cocoa.framework */; };
+		25B130AE16D0D49900414F44 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B130AD16D0D49900414F44 /* SDL.framework */; };
+		25B130B116D0D4F200414F44 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B130B016D0D4F200414F44 /* SDLMain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,9 +30,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		251A65B916DB6DDC00937A65 /* Timer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
+		251A65BA16DB6DDC00937A65 /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
+		251A65BC16DCBE3B00937A65 /* formation1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = formation1; sourceTree = "<group>"; };
+		254D92CB16D9A28900DEE186 /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_image.framework; path = ../../../../../Library/Frameworks/SDL_image.framework; sourceTree = "<group>"; };
 		25B1309D16D0D1AC00414F44 /* Game101 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Game101; sourceTree = BUILT_PRODUCTS_DIR; };
 		25B130A016D0D1AC00414F44 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		25B130A216D0D1AC00414F44 /* Game101.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Game101.1; sourceTree = "<group>"; };
+		25B130A916D0D43E00414F44 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		25B130AD16D0D49900414F44 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = ../../../../../Library/Frameworks/SDL.framework; sourceTree = "<group>"; };
+		25B130AF16D0D4F200414F44 /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = "<group>"; };
+		25B130B016D0D4F200414F44 /* SDLMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLMain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +48,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				254D92CC16D9A28900DEE186 /* SDL_image.framework in Frameworks */,
+				25B130AE16D0D49900414F44 /* SDL.framework in Frameworks */,
+				25B130AA16D0D43E00414F44 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +60,11 @@
 		25B1309416D0D1AC00414F44 = {
 			isa = PBXGroup;
 			children = (
+				251A65B916DB6DDC00937A65 /* Timer.cpp */,
+				251A65BA16DB6DDC00937A65 /* Timer.h */,
+				254D92CB16D9A28900DEE186 /* SDL_image.framework */,
+				25B130AD16D0D49900414F44 /* SDL.framework */,
+				25B130A916D0D43E00414F44 /* Cocoa.framework */,
 				25B1309F16D0D1AC00414F44 /* Game101 */,
 				25B1309E16D0D1AC00414F44 /* Products */,
 			);
@@ -60,6 +81,9 @@
 		25B1309F16D0D1AC00414F44 /* Game101 */ = {
 			isa = PBXGroup;
 			children = (
+				251A65BC16DCBE3B00937A65 /* formation1 */,
+				25B130AF16D0D4F200414F44 /* SDLMain.h */,
+				25B130B016D0D4F200414F44 /* SDLMain.m */,
 				25B130A016D0D1AC00414F44 /* main.cpp */,
 				25B130A216D0D1AC00414F44 /* Game101.1 */,
 			);
@@ -118,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				25B130A116D0D1AC00414F44 /* main.cpp in Sources */,
+				25B130B116D0D4F200414F44 /* SDLMain.m in Sources */,
+				251A65BB16DB6DDC00937A65 /* Timer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +212,9 @@
 		25B130A716D0D1AC00414F44 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -193,6 +222,9 @@
 		25B130A816D0D1AC00414F44 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -216,6 +248,7 @@
 				25B130A816D0D1AC00414F44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
